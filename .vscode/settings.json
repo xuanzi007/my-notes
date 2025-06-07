@@ -1,0 +1,20 @@
+"markdown-editor.customCss": "my custom css rules"
+
+// Eg: "markdown-editor.customCss": ".vditor-ir pre.vditor-reset {line-height: 32px;padding-right: calc(100% - 800px) !important; margin-left: 100px;    font-family: system-ui !important;}"
+
+// settings.json
+{
+    "[markdown]": {
+        "editor.fontSize": 18,
+        "editor.fontFamily": "'iA Writer Duo S', Helvetica, sans-serif",
+        "editor.lineNumbers": "off",
+        "editor.renderLineHighlight": "none",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 80,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+    }
+}
